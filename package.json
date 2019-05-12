@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server side api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imran-UI/Node-Express-Angular-App.git"
+  },
+  "keywords": [
+    "Node",
+    "express",
+    "angular"
+  ],
+  "author": "Imran Shaik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imran-UI/Node-Express-Angular-App/issues"
+  },
+  "homepage": "https://github.com/Imran-UI/Node-Express-Angular-App#readme"
+}
