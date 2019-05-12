@@ -3,3 +3,12 @@ exports.getFeeds = (req,res,next) => {
         posts: [{title : 'First Get Req', content: 'getting the first post request'}]
     })
 };
+
+exports.createFeed =(req, res, next) => {
+    const title = req.body.title;
+    const content = req.body.content;
+    res.status(201).json({
+        message: 'feed created successfully!',
+        post: {id: new Date().toISOString(), title: title, content: content}
+    });
+}
